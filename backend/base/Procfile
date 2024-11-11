@@ -1,1 +1,1 @@
-web: gunicorn backend.base.wsgi:application  # Указываем путь с учетом папки backend
+web: gunicorn base.wsgi:application
